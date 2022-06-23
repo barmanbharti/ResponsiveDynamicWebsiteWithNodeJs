@@ -1,0 +1,35 @@
+<div class="container-fluid mt-5 about-style" id="contactid">
+    <div class=" row">
+        <div class=" col-md-10 col-12 mx-auto">
+            <h1 class="text-centre main-heading">contact</h1>
+            <p class="text-centre main sub-heading">Please Fill Your Contact Details</p>
+            <div class="row"> 
+                <form action="/contact" method="POST">
+                    <div class="mb-3">
+                        <label for="name_input" class="form-label">Name</label>
+                        <input required type="text" class="form-control" id="name_input" name= "name" aria-describedby="Full Name">
+                    </div>
+                    
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input required type="email" class="form-control" id="exampleInputEmail1" name = "email"
+                            aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPhone1" class="form-label">Phone</label>
+                        <input required type="number" class="form-control" name="phone" id="exampleInputPhone1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputMessage1" class="form-label">Message</label>
+                        <input required type="text" class="form-control" id="exampleInputMessage1" name="message" >
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input required type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div> 
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
